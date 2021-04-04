@@ -1,5 +1,5 @@
 @@ -1,4 +1,10 @@
-const pageUrlOverrides = require('./page-overrides.json')
+// const pageUrlOverrides = require('./page-overrides.json')
   // top of site.config.js
   // and then use pageUrlOverrides in your config
 // @@ -1,4 +1,10 @@
