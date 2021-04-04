@@ -1,13 +1,3 @@
-@@ -1,4 +1,10 @@
-// const pageUrlOverrides = require('./page-overrides.json')
-  // top of site.config.js
-  // and then use pageUrlOverrides in your config
-// @@ -1,4 +1,10 @@
-// const pageUrlOverrides = require('./page-overrides.json')
-//   // top of site.config.js
-//   // and then use pageUrlOverrides in your config
-
-
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
   rootNotionPageId: '0c364da64e85468891e0dc433d8439cd',
