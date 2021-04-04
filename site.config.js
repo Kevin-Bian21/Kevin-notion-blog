@@ -1,44 +1,45 @@
+@@ -1,4 +1,10 @@
+const pageUrlOverrides = require('./page-overrides.json')
+  // top of site.config.js
+  // and then use pageUrlOverrides in your config
+// @@ -1,4 +1,10 @@
+// const pageUrlOverrides = require('./page-overrides.json')
+//   // top of site.config.js
+//   // and then use pageUrlOverrides in your config
+
+
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
-
+  rootNotionPageId: '0c364da64e85468891e0dc433d8439cd',
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
-
   // basic site info (required)
-  name: 'Transitive Bullshit',
-  domain: 'transitivebullsh.it',
-  author: 'Travis Fischer',
-
+  name: 'Kevin Blog',
+  domain: 'KevinBian.cn',
+  author: 'BianWenKai',
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
+  description: '',
+  socialImageTitle: '',
   socialImageSubtitle: 'Hello World! 👋',
-
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-
+  twitter: 'Kevin17450800',
+  github: 'Kevin-Bian21',
+  // linkedin: 'fisch2',
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
-
   // image CDN host to proxy all image requests through (optional)
   // NOTE: this requires you to set up an external image proxy
-  imageCDNHost: null,
-
+  // imageCDNHost: null,
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
-
+  utterancesGitHubRepo: 'Kevin-Bian21/nextjs-notion-starter-kit',
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
   isPreviewImageSupportEnabled: false,
-
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
