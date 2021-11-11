@@ -6,7 +6,8 @@ module.exports = {
   rootNotionSpaceId: null,
   // basic site info (required)
   name: 'Kevin Blog',
-  domain: 'kevinbian.vercel.app',
+  // domain: 'kevinbian.vercel.app',
+  domain: 'codingmaster.top',
   author: 'BianWenKai',
   // open graph metadata (optional)
   description: '',
